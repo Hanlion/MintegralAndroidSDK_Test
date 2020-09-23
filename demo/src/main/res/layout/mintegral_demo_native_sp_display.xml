@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mintegral_demo_tv_sp_name"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:background="@color/mintegral_demo_blue"
+        android:drawablePadding="6dp"
+        android:drawableRight="@drawable/mintegral_demo_icon_arrow_down"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="@string/demo"
+        android:textColor="@color/mintegral_demo_white"
+        android:textStyle="bold" />
+
+</LinearLayout>

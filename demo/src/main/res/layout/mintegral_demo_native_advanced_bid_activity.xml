@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f1f2" >
+
+    <RelativeLayout
+        android:id="@+id/mintegral_container_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:id="@+id/mobivsta_demo_ll_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_bid_advancedNative"
+            android:layout_weight="1"
+            android:textColor="@color/mintegral_demo_white"
+            android:textStyle="bold"
+            android:text="bidAdvancedNative"
+            android:background="@color/mintegral_demo_blue"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"/>
+
+
+
+        <Button
+            android:id="@+id/bt_load_advancedNative"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/mintegral_demo_orange"
+            android:text="getAdvancedNative"
+            android:textColor="@color/mintegral_demo_white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

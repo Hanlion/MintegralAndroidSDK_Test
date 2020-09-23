@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mintegral_demo_gray"
+    android:orientation="vertical" >
+
+    <com.mintegral.sdk.demo.view.CommonTitleLayout
+        android:id="@+id/mintegral_demo_common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:id="@+id/nat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/btn_preappwall"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/mintegral_demo_blue"
+            android:text="PreloadAppWall"
+            android:textColor="@color/mintegral_demo_white"
+            android:textStyle="bold" >
+        </Button>
+
+        <Button
+            android:id="@+id/btn_intent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/mintegral_demo_orange"
+            android:text="intentToOpenAppWall"
+            android:textColor="@color/mintegral_demo_white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

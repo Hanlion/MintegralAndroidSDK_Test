@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v19/values-v19.xml",
+            "map": [
+                {
+                    "source": "/Users/hanliontien/Desktop/MTGTest/demo/src/main/res/values-v19/styles.xml",
+                    "from": {
+                        "startLines": "12,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "251,560",
+                        "endLines": "22,27",
+                        "endColumns": "12,12",
+                        "endOffsets": "522,727"
+                    },
+                    "to": {
+                        "startLines": "2,13",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,331",
+                        "endLines": "12,15",
+                        "endColumns": "12,12",
+                        "endOffsets": "326,498"
+                    }
+                }
+            ]
+        }
+    ]
+}

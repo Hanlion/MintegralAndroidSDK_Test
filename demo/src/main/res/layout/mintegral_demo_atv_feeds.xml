@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mintegral_demo_gray"
+    android:orientation="vertical" >
+
+    <com.mintegral.sdk.demo.view.CommonTitleLayout
+        android:id="@+id/mintegral_demo_common_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/feeds_load"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/mintegral_demo_blue"
+        android:text="load"
+        android:textColor="@color/mintegral_demo_white" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/feeds_load"
+        android:layout_below="@id/mintegral_demo_common_title_layout"
+        android:background="@android:color/white"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/mintegral_display_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mintegral_demo_display_area" />
+
+</RelativeLayout>

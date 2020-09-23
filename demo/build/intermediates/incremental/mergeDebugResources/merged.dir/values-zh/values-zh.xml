@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mintegral_splash_count_time_can_skip">点击跳过|</string>
+    <string name="mintegral_splash_count_time_can_skip_not">s后自动关闭</string>
+    <string name="mintegral_splash_count_time_can_skip_s">s</string>
+</resources>

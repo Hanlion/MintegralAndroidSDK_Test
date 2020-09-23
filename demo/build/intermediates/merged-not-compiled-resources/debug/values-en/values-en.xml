@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="mintegral_download_notify_cancel">cancel</string>
+    <string name="mintegral_download_notify_continue">continue</string>
+    <string name="mintegral_download_notify_download_failed">download failed</string>
+    <string name="mintegral_download_notify_download_finish_to_install">download finished，click to install</string>
+    <string name="mintegral_download_notify_download_interrupt">download failed,please checkout the network</string>
+    <string name="mintegral_download_notify_downloading">downloading</string>
+    <string name="mintegral_download_notify_network_error">network error</string>
+    <string name="mintegral_download_notify_pause">pause</string>
+    <string name="mintegral_download_notify_prefix_download">download:</string>
+    <string name="mintegral_download_notify_prefix_pause">pause:</string>
+    <string name="mintegral_download_notify_start_download">start download</string>
+    <string name="mintegral_download_notify_update_finish_to_install">update finished click to install.</string>
+    <string name="mintegral_download_notify_update_package">updating the installation package</string>
+</resources>

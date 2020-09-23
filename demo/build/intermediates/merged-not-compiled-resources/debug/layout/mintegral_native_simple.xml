@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f0f1f2"
+    android:orientation="vertical" >
+
+    <com.mintegral.sdk.demo.view.CommonTitleLayout
+        android:id="@+id/mintegral_common_demo_title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <GridView
+        android:id="@+id/mintegral_demo_gv_simple_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="25dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:paddingRight="13dp"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>

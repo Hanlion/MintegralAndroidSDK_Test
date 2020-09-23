@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="@color/mintegral_reward_black">
+
+    <com.mintegral.msdk.playercommon.PlayerView
+        android:id="@+id/mintegral_vfpv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/mintegral_tv_sound"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="start"
+        android:layout_margin="10dp"
+        android:background="@drawable/mintegral_reward_shape_progress"
+        android:gravity="center"
+        android:textColor="@color/mintegral_reward_white"
+        android:textSize="12sp"
+        android:visibility="visible" />
+
+    <com.mintegral.msdk.video.widget.SoundImageView
+        android:id="@+id/mintegral_sound_switch"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="visible" />
+
+    <FrameLayout
+        android:id="@+id/mintegral_rl_playing_close"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        android:visibility="visible">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="closeButton"
+            android:src="@drawable/mintegral_reward_close" />
+    </FrameLayout>
+
+</FrameLayout>

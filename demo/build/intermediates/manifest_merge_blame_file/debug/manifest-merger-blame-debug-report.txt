@@ -1,0 +1,567 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mintegral.sdk.demo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="com.google.android.launcher.permission.READ_SETTINGS" />
+11-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:8:5-92
+11-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:8:22-89
+12    <uses-permission android:name="com.google.android.launcher.permission.WRITE_SETTINGS" />
+12-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:9:5-93
+12-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:9:22-90
+13    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+13-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:10:5-87
+13-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:10:22-85
+14    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" />
+14-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:11:5-89
+14-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:11:22-87
+15    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+15-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:13:5-84
+15-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:13:22-82
+16    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS" />
+16-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:14:5-86
+16-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:14:22-83
+17    <uses-permission android:name="com.android.launcher2.permission.READ_SETTINGS" />
+17-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:15:5-86
+17-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:15:22-83
+18    <uses-permission android:name="com.android.launcher2.permission.WRITE_SETTINGS" />
+18-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:16:5-87
+18-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:16:22-84
+19    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS" />
+19-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:17:5-86
+19-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:17:22-83
+20    <uses-permission android:name="com.android.launcher3.permission.WRITE_SETTINGS" />
+20-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:18:5-87
+20-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:18:22-84
+21    <uses-permission android:name="org.adw.launcher.permission.READ_SETTINGS" />
+21-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:19:5-81
+21-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:19:22-78
+22    <uses-permission android:name="org.adw.launcher.permission.WRITE_SETTINGS" />
+22-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:20:5-82
+22-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:20:22-79
+23    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+23-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:21:5-81
+23-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:21:22-78
+24    <uses-permission android:name="com.htc.launcher.permission.WRITE_SETTINGS" />
+24-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:22:5-82
+24-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:22:22-79
+25    <uses-permission android:name="com.qihoo360.launcher.permission.READ_SETTINGS" />
+25-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:23:5-86
+25-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:23:22-83
+26    <uses-permission android:name="com.qihoo360.launcher.permission.WRITE_SETTINGS" />
+26-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:24:5-87
+26-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:24:22-84
+27    <uses-permission android:name="com.lge.launcher.permission.READ_SETTINGS" />
+27-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:25:5-81
+27-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:25:22-78
+28    <uses-permission android:name="com.lge.launcher.permission.WRITE_SETTINGS" />
+28-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:26:5-82
+28-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:26:22-79
+29    <uses-permission android:name="net.qihoo.launcher.permission.READ_SETTINGS" />
+29-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:27:5-83
+29-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:27:22-80
+30    <uses-permission android:name="net.qihoo.launcher.permission.WRITE_SETTINGS" />
+30-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:28:5-84
+30-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:28:22-81
+31    <uses-permission android:name="org.adwfreak.launcher.permission.READ_SETTINGS" />
+31-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:29:5-86
+31-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:29:22-83
+32    <uses-permission android:name="org.adwfreak.launcher.permission.WRITE_SETTINGS" />
+32-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:30:5-87
+32-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:30:22-84
+33    <uses-permission android:name="org.adw.launcher_donut.permission.READ_SETTINGS" />
+33-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:31:5-87
+33-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:31:22-84
+34    <uses-permission android:name="org.adw.launcher_donut.permission.WRITE_SETTINGS" />
+34-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:32:5-88
+34-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:32:22-85
+35    <uses-permission android:name="com.huawei.launcher3.permission.READ_SETTINGS" />
+35-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:33:5-85
+35-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:33:22-82
+36    <uses-permission android:name="com.huawei.launcher3.permission.WRITE_SETTINGS" />
+36-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:34:5-86
+36-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:34:22-83
+37    <uses-permission android:name="com.fede.launcher.permission.READ_SETTINGS" />
+37-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:35:5-82
+37-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:35:22-79
+38    <uses-permission android:name="com.fede.launcher.permission.WRITE_SETTINGS" />
+38-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:36:5-83
+38-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:36:22-80
+39    <uses-permission android:name="com.sec.android.app.twlauncher.settings.READ_SETTINGS" />
+39-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:37:5-93
+39-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:37:22-90
+40    <uses-permission android:name="com.sec.android.app.twlauncher.settings.WRITE_SETTINGS" />
+40-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:38:5-94
+40-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:38:22-91
+41    <uses-permission android:name="com.anddoes.launcher.permission.READ_SETTINGS" />
+41-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:39:5-85
+41-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:39:22-82
+42    <uses-permission android:name="com.anddoes.launcher.permission.WRITE_SETTINGS" />
+42-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:40:5-86
+42-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:40:22-83
+43    <uses-permission android:name="com.tencent.qqlauncher.permission.READ_SETTINGS" />
+43-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:41:5-87
+43-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:41:22-84
+44    <uses-permission android:name="com.tencent.qqlauncher.permission.WRITE_SETTINGS" />
+44-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:42:5-88
+44-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:42:22-85
+45    <uses-permission android:name="com.huawei.launcher2.permission.READ_SETTINGS" />
+45-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:43:5-85
+45-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:43:22-82
+46    <uses-permission android:name="com.huawei.launcher2.permission.WRITE_SETTINGS" />
+46-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:44:5-86
+46-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:44:22-83
+47    <uses-permission android:name="com.android.mylauncher.permission.READ_SETTINGS" />
+47-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:45:5-87
+47-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:45:22-84
+48    <uses-permission android:name="com.android.mylauncher.permission.WRITE_SETTINGS" />
+48-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:46:5-88
+48-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:46:22-85
+49    <uses-permission android:name="com.ebproductions.android.launcher.permission.READ_SETTINGS" />
+49-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:47:5-99
+49-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:47:22-96
+50    <uses-permission android:name="com.ebproductions.android.launcher.permission.WRITE_SETTINGS" />
+50-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:48:5-100
+50-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:48:22-97
+51    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+51-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:49:5-82
+51-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:49:22-79
+52    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" />
+52-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:50:5-83
+52-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:50:22-80
+53    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+53-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:51:5-92
+53-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:51:22-89
+54    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+54-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:52:5-93
+54-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:52:22-90
+55    <uses-permission android:name="telecom.mdesk.permission.READ_SETTINGS" />
+55-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:53:5-78
+55-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:53:22-75
+56    <uses-permission android:name="telecom.mdesk.permission.WRITE_SETTINGS" />
+56-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:54:5-79
+56-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:54:22-76
+57    <uses-permission android:name="dianxin.permission.ACCESS_LAUNCHER_DATA" />
+57-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:55:5-79
+57-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:55:22-76
+58    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+58-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:57:5-82
+58-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:57:22-80
+59    <uses-permission android:name="android.permission.INTERNET" />
+59-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:244:5-67
+59-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:244:22-64
+60    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+60-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:245:5-76
+60-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:245:22-73
+61    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+61-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:246:5-75
+61-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:246:22-72
+62    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+62-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:247:5-79
+62-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:247:22-76
+63    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+63-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:248:5-81
+63-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:248:22-78
+64    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+64-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:249:5-79
+64-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:249:22-76
+65    <uses-permission
+65-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:250:5-107
+66        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+66-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:250:22-78
+67        android:maxSdkVersion="18" />
+67-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:250:79-105
+68    <!-- <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" /> -->
+69    <!-- These permissions are strongly recommended and will result in higher performance -->
+70    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+70-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:253:5-80
+70-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:253:22-77
+71
+72    <meta-data
+72-->[com.android.support:appcompat-v7:25.3.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/AndroidManifest.xml:25:5-27:34
+73        android:name="android.support.VERSION"
+73-->[com.android.support:appcompat-v7:25.3.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/AndroidManifest.xml:26:9-47
+74        android:value="25.3.1" />
+74-->[com.android.support:appcompat-v7:25.3.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/AndroidManifest.xml:27:9-31
+75
+76    <application
+76-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:59:5-242:19
+77        android:name="com.mintegral.sdk.demo.MainApplication"
+77-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:60:9-62
+78        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+78-->[com.android.support:support-compat:28.0.0] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/ccf94a4f227dfa4f17156620e28a8b98/support-compat-28.0.0/AndroidManifest.xml:22:18-91
+79        android:debuggable="true"
+80        android:icon="@drawable/mintegral_demo_launcher"
+80-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:61:9-57
+81        android:label="@string/app_name"
+81-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:62:9-41
+82        android:networkSecurityConfig="@xml/network_security_config"
+82-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:64:9-69
+83        android:testOnly="true"
+84        android:theme="@style/MintegralAppTheme" >
+84-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:63:9-49
+85        <uses-library
+85-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:66:9-88
+86            android:name="org.apache.http.legacy"
+86-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:66:23-60
+87            android:required="false" />
+87-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:66:61-85
+88        <!--
+89             <meta-data
+90            android:name="com.google.android.gms.version"
+91            android:value="@integer/google_play_services_version" />
+92        -->
+93
+94        <activity
+94-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:73:9-81:20
+95            android:name="com.mintegral.sdk.demo.HomeActivity"
+95-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:74:13-63
+96            android:label="@string/app_name" >
+96-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:75:13-45
+97            <intent-filter>
+97-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:76:13-80:29
+98                <action android:name="android.intent.action.MAIN" />
+98-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:77:17-69
+98-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:77:25-66
+99
+100                <category android:name="android.intent.category.LAUNCHER" />
+100-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:79:17-77
+100-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:79:27-74
+101            </intent-filter>
+102        </activity>
+103        <activity
+103-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:82:9-85:20
+104            android:name="com.mintegral.sdk.demo.NativeActivity"
+104-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:83:13-65
+105            android:label="@string/app_name" >
+105-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:84:13-45
+106        </activity>
+107        <activity
+107-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:87:9-90:20
+108            android:name="com.mintegral.sdk.demo.InteractiveAdsActivity"
+108-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:88:13-73
+109            android:label="@string/app_name" >
+109-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:89:13-45
+110        </activity>
+111        <activity
+111-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:91:9-94:20
+112            android:name="com.mintegral.sdk.demo.NativeMultemplateActivity"
+112-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:92:13-76
+113            android:label="@string/app_name" >
+113-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:93:13-45
+114        </activity>
+115        <activity
+115-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:95:9-98:20
+116            android:name="com.mintegral.sdk.demo.NativeChoiceActivity"
+116-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:96:13-71
+117            android:label="@string/app_name" >
+117-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:97:13-45
+118        </activity>
+119        <activity
+119-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:99:9-102:20
+120            android:name="com.mintegral.sdk.demo.AppwallActivity"
+120-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:100:13-66
+121            android:label="@string/app_name" >
+121-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:101:13-45
+122        </activity>
+123        <activity
+123-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:103:9-106:20
+124            android:name="com.mintegral.sdk.demo.RewardActivity"
+124-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:104:13-65
+125            android:label="@string/app_name" >
+125-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:105:13-45
+126        </activity>
+127        <activity
+127-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:107:9-111:20
+128            android:name="com.mintegral.sdk.demo.FeedsActivity"
+128-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:108:13-64
+129            android:label="@string/app_name"
+129-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:109:13-45
+130            android:screenOrientation="portrait" >
+130-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:110:13-49
+131        </activity>
+132        <activity
+132-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:112:9-114:52
+133            android:name="com.mintegral.sdk.demo.NativeSimpleActivity"
+133-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:113:13-71
+134            android:screenOrientation="portrait" />
+134-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:114:13-49
+135        <activity
+135-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:115:9-117:52
+136            android:name="com.mintegral.sdk.demo.BannerActivity"
+136-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:116:13-65
+137            android:screenOrientation="portrait" />
+137-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:117:13-49
+138        <activity
+138-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:118:9-120:52
+139            android:name="com.mintegral.sdk.demo.FeedsImageActivity"
+139-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:119:13-69
+140            android:screenOrientation="portrait" />
+140-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:120:13-49
+141        <activity
+141-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:121:9-123:52
+142            android:name="com.mintegral.sdk.demo.FullScreenActivity"
+142-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:122:13-69
+143            android:screenOrientation="portrait" />
+143-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:123:13-49
+144        <activity
+144-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:124:9-127:75
+145            android:name="com.mintegral.sdk.demo.NativeInterstitialActivity"
+145-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:125:13-77
+146            android:screenOrientation="portrait"
+146-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:126:13-49
+147            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+147-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:127:13-72
+148        <activity
+148-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:128:9-130:52
+149            android:name="com.mintegral.sdk.demo.InterstitialActivity"
+149-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:129:13-71
+150            android:screenOrientation="portrait" />
+150-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:130:13-49
+151        <activity
+151-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:131:9-133:52
+152            android:name="com.mintegral.sdk.demo.InterstitialVideoActivity"
+152-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:132:13-76
+153            android:screenOrientation="portrait" />
+153-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:133:13-49
+154        <activity
+154-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:134:9-136:52
+155            android:name="com.mintegral.sdk.demo.bid.BidInterstitialVideoActivity"
+155-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:135:13-83
+156            android:screenOrientation="portrait" />
+156-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:136:13-49
+157        <activity
+157-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:137:9-139:52
+158            android:name="com.mintegral.sdk.demo.bid.BidRewardActivity"
+158-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:138:13-72
+159            android:screenOrientation="portrait" />
+159-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:139:13-49
+160        <activity
+160-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:140:9-143:20
+161            android:name="com.mintegral.sdk.demo.bid.BidChoiceActivity"
+161-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:141:13-72
+162            android:label="@string/app_name" >
+162-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:142:13-45
+163        </activity>
+164        <activity
+164-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:144:9-145:57
+165            android:name="com.mintegral.sdk.demo.bid.BidBannerActivity"
+165-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:144:19-56
+166            android:label="@string/app_name" />
+166-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:145:13-45
+167        <activity
+167-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:146:9-148:57
+168            android:name="com.mintegral.sdk.demo.bid.BidNativeActivity"
+168-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:147:13-50
+169            android:label="@string/app_name" />
+169-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:148:13-45
+170        <activity
+170-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:149:9-151:57
+171            android:name="com.mintegral.sdk.demo.bid.BidNativeVideoRecycleViewActivity"
+171-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:150:13-66
+172            android:label="@string/app_name" />
+172-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:151:13-45
+173
+174        <service
+174-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:152:9-156:19
+175            android:name="com.mintegral.msdk.shell.MTGService"
+175-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:152:18-68
+176            android:exported="false" >
+176-->[:mintegral_mtgdownloads:] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/7387ace55116925fd5e71d0023434471/mintegral_mtgdownloads/AndroidManifest.xml:14:13-37
+177            <intent-filter>
+177-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:153:13-155:29
+178                <action android:name="com.mintegral.msdk.download.action" />
+178-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:154:17-77
+178-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:154:25-74
+179            </intent-filter>
+180        </service>
+181
+182        <!-- mintegral base activity -->
+183        <activity
+183-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:159:9-166:20
+184            android:name="com.mintegral.msdk.activity.MTGCommonActivity"
+184-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:160:13-73
+185            android:configChanges="keyboard|orientation"
+185-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:161:13-57
+186            android:exported="true"
+186-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:163:13-36
+187            android:screenOrientation="portrait"
+187-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:162:13-49
+188            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+188-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:164:13-72
+189        </activity>
+190
+191        <!-- if appwall need added Immersive Mode，pls plus android:theme="@style/MintegralAppTheme" attribute -->
+192        <activity
+192-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:169:9-173:20
+193            android:name="com.mintegral.msdk.shell.MTGActivity"
+193-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:170:13-64
+194            android:configChanges="keyboard|orientation|screenSize"
+194-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:171:13-68
+195            android:theme="@style/MintegralAppTheme" >
+195-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:172:13-53
+196        </activity>
+197        <activity
+197-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:174:9-177:15
+198            android:name="com.mintegral.sdk.demo.NativeVideoRecycleViewActivity"
+198-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:175:13-59
+199            android:configChanges="orientation|keyboardHidden|screenSize" />
+199-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:176:13-74
+200        <!-- Include the AdActivity configChanges and theme. -->
+201        <!-- integration rewardVideo if aggregation nativeX pls add start -->
+202        <activity
+202-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:180:9-183:64
+203            android:name="com.google.android.gms.ads.AdActivity"
+203-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:181:13-65
+204            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+204-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:182:13-122
+205            android:theme="@android:style/Theme.Translucent" />
+205-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:183:13-61
+206        <activity android:name="com.mintegral.msdk.out.LoadingActivity" />
+206-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:185:9-187:15
+206-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:186:13-66
+207        <!-- integration rewardVideo if aggregation nativeX pls add end -->
+208
+209
+210        <!-- integration interstitial needed activty start -->
+211        <activity
+211-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:191:9-194:61
+212            android:name="com.mintegral.msdk.interstitial.view.MTGInterstitialActivity"
+212-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:192:13-88
+213            android:configChanges="orientation|screenSize"
+213-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:194:13-59
+214            android:screenOrientation="portrait" />
+214-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:193:13-49
+215        <!-- integration interstitial needed activty end -->
+216        <activity
+216-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:196:9-199:66
+217            android:name="com.mintegral.msdk.reward.player.MTGRewardVideoActivity"
+217-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:197:13-83
+218            android:configChanges="orientation|keyboardHidden|screenSize"
+218-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:198:13-74
+219            android:theme="@style/mintegral_transparent_theme" />
+219-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:199:13-63
+220        <activity
+220-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:201:9-203:25
+221            android:name="com.mintegral.msdk.mtgjscommon.authority.activity.MTGAuthorityActivity"
+221-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:201:19-104
+222            android:configChanges="keyboardHidden|orientation|screenSize" />
+222-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:202:13-74
+223
+224        <provider
+225            android:name="com.mintegral.msdk.base.utils.MTGFileProvider"
+225-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:206:13-73
+226            android:authorities="com.mintegral.sdk.demo.mtgFileProvider"
+226-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:207:13-67
+227            android:exported="false"
+227-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:208:13-37
+228            android:grantUriPermissions="true" >
+228-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:209:13-47
+229            <meta-data
+229-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:210:13-212:61
+230                android:name="android.support.FILE_PROVIDER_PATHS"
+230-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:211:17-67
+231                android:resource="@xml/mtg_provider_paths" />
+231-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:212:17-59
+232        </provider>
+233
+234        <activity
+234-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:215:9-218:25
+235            android:name="com.mintegral.msdk.interactiveads.activity.InteractiveShowActivity"
+235-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:215:19-100
+236            android:configChanges="keyboardHidden|orientation|screenSize"
+236-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:217:13-74
+237            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+237-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:216:13-71
+238        <activity android:name="com.mintegral.sdk.demo.SplashActivity" />
+238-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:219:9-51
+238-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:219:19-49
+239        <activity android:name="com.mintegral.sdk.demo.bid.BidSplashActivity" />
+239-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:220:9-59
+239-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:220:19-56
+240        <activity
+240-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:221:9-222:76
+241            android:name="com.mintegral.sdk.demo.SplashShowActivity"
+241-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:221:19-53
+242            android:configChanges="keyboardHidden|orientation|screenSize" />
+242-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:222:13-74
+243        <activity android:name="com.mintegral.sdk.demo.NativeAdvancedShowActivity" />
+243-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:223:9-64
+243-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:223:19-61
+244        <activity android:name="com.mintegral.sdk.demo.bid.BidNativeAdvancedActivity" />
+244-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:224:9-67
+244-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:224:19-64
+245
+246        <receiver
+246-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:226:9-234:20
+247            android:name="com.alphab.receiver.AlphabReceiver"
+247-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:227:13-62
+248            android:enabled="true"
+248-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:228:13-35
+249            android:exported="true" >
+249-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:229:13-36
+250            <intent-filter>
+250-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:230:13-233:29
+251                <action android:name="android.intent.action.PACKAGE_ADDED" />
+251-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:231:17-78
+251-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:231:25-75
+252
+253                <data android:scheme="package" />
+253-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:232:17-50
+253-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:232:23-47
+254            </intent-filter>
+255        </receiver>
+256        <receiver android:name="com.mintegral.msdk.click.AppReceiver" >
+256-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:235:9-241:20
+256-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:235:19-70
+257            <intent-filter>
+257-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:230:13-233:29
+258
+259                <!-- 一个新应用包已经安装在设备上，数据包括包名（监听所在的app，新安装时，不能接收到这个广播） -->
+260                <action android:name="android.intent.action.PACKAGE_ADDED" />
+260-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:231:17-78
+260-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:231:25-75
+261
+262                <data android:scheme="package" />
+262-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:232:17-50
+262-->/Users/hanliontien/Desktop/MTGTest/demo/src/main/AndroidManifest.xml:232:23-47
+263            </intent-filter>
+264        </receiver>
+265
+266        <activity
+266-->[com.facebook.android:audience-network-sdk:4.26.0] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3da3b79e7a54f361f06717e9793093a4/audience-network-sdk-4.26.0/AndroidManifest.xml:15:9-17:77
+267            android:name="com.facebook.ads.AudienceNetworkActivity"
+267-->[com.facebook.android:audience-network-sdk:4.26.0] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3da3b79e7a54f361f06717e9793093a4/audience-network-sdk-4.26.0/AndroidManifest.xml:16:13-68
+268            android:configChanges="keyboardHidden|orientation|screenSize" />
+268-->[com.facebook.android:audience-network-sdk:4.26.0] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3da3b79e7a54f361f06717e9793093a4/audience-network-sdk-4.26.0/AndroidManifest.xml:17:13-74
+269        <activity
+269-->[com.google.android.gms:play-services-ads-lite:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/855bac451435febd518482dbdced9dee/play-services-ads-lite-10.0.1/AndroidManifest.xml:26:9-131
+270            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+270-->[com.google.android.gms:play-services-ads-lite:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/855bac451435febd518482dbdced9dee/play-services-ads-lite-10.0.1/AndroidManifest.xml:26:19-91
+271            android:theme="@style/Theme.IAPTheme" />
+271-->[com.google.android.gms:play-services-ads-lite:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/855bac451435febd518482dbdced9dee/play-services-ads-lite-10.0.1/AndroidManifest.xml:26:92-129
+272        <activity
+272-->[com.google.android.gms:play-services-base:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/00adebadc2cb7b7ba9c37ae807c4d25a/play-services-base-10.0.1/AndroidManifest.xml:19:9-172
+273            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+273-->[com.google.android.gms:play-services-base:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/00adebadc2cb7b7ba9c37ae807c4d25a/play-services-base-10.0.1/AndroidManifest.xml:19:19-85
+274            android:exported="false"
+274-->[com.google.android.gms:play-services-base:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/00adebadc2cb7b7ba9c37ae807c4d25a/play-services-base-10.0.1/AndroidManifest.xml:19:146-170
+275            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+275-->[com.google.android.gms:play-services-base:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/00adebadc2cb7b7ba9c37ae807c4d25a/play-services-base-10.0.1/AndroidManifest.xml:19:86-145
+276
+277        <meta-data
+277-->[com.google.android.gms:play-services-basement:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/dd9505a7bafcd5cbd57a63d60d4e5b6d/play-services-basement-10.0.1/AndroidManifest.xml:20:9-121
+278            android:name="com.google.android.gms.version"
+278-->[com.google.android.gms:play-services-basement:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/dd9505a7bafcd5cbd57a63d60d4e5b6d/play-services-basement-10.0.1/AndroidManifest.xml:20:20-65
+279            android:value="@integer/google_play_services_version" />
+279-->[com.google.android.gms:play-services-basement:10.0.1] /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/dd9505a7bafcd5cbd57a63d60d4e5b6d/play-services-basement-10.0.1/AndroidManifest.xml:20:66-119
+280    </application>
+281
+282</manifest>

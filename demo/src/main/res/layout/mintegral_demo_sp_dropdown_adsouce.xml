@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mintegral_demo_tv_sp_name"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/mintegral_shape_blue_btn"
+    android:gravity="center"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:text="GOTONATIVE"
+    android:textColor="@color/mintegral_demo_blue" />

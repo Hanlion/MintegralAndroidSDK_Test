@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mintegral_reward_endcard_hor_bg">
+
+    <RelativeLayout
+        android:id="@+id/mintegral_native_ec_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/mintegral_center_view"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/mintegral_center_view">
+
+            <ImageView
+                android:id="@+id/mintegral_iv_adbanner_bg"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY" />
+
+            <com.mintegral.msdk.videocommon.view.RoundImageView
+                android:id="@+id/mintegral_iv_adbanner"
+                android:layout_margin="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@+id/mintegral_iv_flag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:src="@drawable/mintegral_reward_flag_en" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mintegral_iv_close"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="9dp"
+            android:contentDescription="closeButton"
+            android:src="@drawable/mintegral_reward_close_ec" />
+
+        <ImageView
+            android:id="@+id/mintegral_iv_iconbg"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/mintegral_reward_end_shape_oval" />
+
+        <ImageView
+            android:id="@+id/mintegral_iv_icon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/mintegral_tv_apptitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mintegral_iv_iconbg"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:ellipsize="end"
+            android:maxEms="7"
+            android:singleLine="true"
+            android:text="title"
+            android:textColor="@color/mintegral_reward_title_textcolor"
+            android:textSize="15sp" />
+
+        <com.mintegral.msdk.videocommon.view.StarLevelView
+            android:id="@+id/mintegral_sv_starlevel"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_below="@id/mintegral_tv_apptitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="2dp"
+            android:orientation="horizontal" />
+
+        <LinearLayout
+            android:id="@+id/mintegral_tv_number_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mintegral_sv_starlevel"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="("
+                android:textColor="@color/mintegral_reward_desc_textcolor"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/mintegral_tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:drawableLeft="@drawable/mintegral_reward_user"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="12345)"
+                android:textColor="@color/mintegral_reward_desc_textcolor"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/mintegral_tv_appdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mintegral_tv_number_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="30dp"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.2"
+            android:minLines="3"
+            android:text="des"
+            android:textColor="@color/mintegral_reward_desc_textcolor"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/mintegral_tv_cta"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@id/mintegral_iv_logo"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/mintegral_reward_shape_end_pager"
+            android:gravity="center"
+            android:text="Install Now"
+            android:textColor="@android:color/white"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mintegral_iv_logo"
+            android:layout_width="54dp"
+            android:layout_height="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/mintegral_reward_end_pager_logo" />
+
+        <ImageView
+            android:id="@+id/mintegral_iv_link"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="9dp"
+            android:contentDescription="noteLinkButton"
+            android:src="@drawable/mintegral_reward_notice" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

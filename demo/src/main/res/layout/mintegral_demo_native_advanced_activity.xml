@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/mintegral_demo_advanced_native_ac_preload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="preload"/>
+    <Button
+        android:id="@+id/mintegral_demo_advanced_native_ac_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="show"/>
+    <Button
+        android:id="@+id/mintegral_demo_advanced_native_ac_release"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="release"/>
+    <RelativeLayout
+        android:id="@+id/mintegral_demo_advanced_native_ac_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#666666"></RelativeLayout>
+</LinearLayout>

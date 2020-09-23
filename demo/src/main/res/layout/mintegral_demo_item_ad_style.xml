@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mintegral_demo_white" >
+
+    <ImageView
+        android:id="@+id/mintegral_demo_item_iv_big"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <RelativeLayout
+        android:id="@+id/mintegral_demo_item_rl_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/mintegral_demo_item_iv_big"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-25dp"
+        android:background="@drawable/mintegral_shape_white_bg" >
+
+        <ImageView
+            android:id="@+id/mintegral_demo_item_iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/mintegral_demo_icon_native" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/mintegral_demo_item_tv_ad_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mintegral_demo_item_rl_icon"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:textColor="#607185"
+        android:textSize="20dp" />
+
+</RelativeLayout>

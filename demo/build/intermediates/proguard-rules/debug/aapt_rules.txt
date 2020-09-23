@@ -1,0 +1,262 @@
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:76
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:246
+-keep class com.alphab.receiver.AlphabReceiver { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:266
+-keep class com.facebook.ads.AudienceNetworkActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:202
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:269
+-keep class com.google.android.gms.ads.purchase.InAppPurchaseActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:272
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:183
+-keep class com.mintegral.msdk.activity.MTGCommonActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:224
+-keep class com.mintegral.msdk.base.utils.MTGFileProvider { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:256
+-keep class com.mintegral.msdk.click.AppReceiver { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:234
+-keep class com.mintegral.msdk.interactiveads.activity.InteractiveShowActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:211
+-keep class com.mintegral.msdk.interstitial.view.MTGInterstitialActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:220
+-keep class com.mintegral.msdk.mtgjscommon.authority.activity.MTGAuthorityActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:206
+-keep class com.mintegral.msdk.out.LoadingActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:216
+-keep class com.mintegral.msdk.reward.player.MTGRewardVideoActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:192
+-keep class com.mintegral.msdk.shell.MTGActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:174
+-keep class com.mintegral.msdk.shell.MTGService { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:119
+-keep class com.mintegral.sdk.demo.AppwallActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:135
+-keep class com.mintegral.sdk.demo.BannerActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:127
+-keep class com.mintegral.sdk.demo.FeedsActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:138
+-keep class com.mintegral.sdk.demo.FeedsImageActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:141
+-keep class com.mintegral.sdk.demo.FullScreenActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:94
+-keep class com.mintegral.sdk.demo.HomeActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:107
+-keep class com.mintegral.sdk.demo.InteractiveAdsActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:148
+-keep class com.mintegral.sdk.demo.InterstitialActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:151
+-keep class com.mintegral.sdk.demo.InterstitialVideoActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:76
+-keep class com.mintegral.sdk.demo.MainApplication { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:103
+-keep class com.mintegral.sdk.demo.NativeActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:243
+-keep class com.mintegral.sdk.demo.NativeAdvancedShowActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:115
+-keep class com.mintegral.sdk.demo.NativeChoiceActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:144
+-keep class com.mintegral.sdk.demo.NativeInterstitialActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:111
+-keep class com.mintegral.sdk.demo.NativeMultemplateActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:132
+-keep class com.mintegral.sdk.demo.NativeSimpleActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:197
+-keep class com.mintegral.sdk.demo.NativeVideoRecycleViewActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:123
+-keep class com.mintegral.sdk.demo.RewardActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:238
+-keep class com.mintegral.sdk.demo.SplashActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:240
+-keep class com.mintegral.sdk.demo.SplashShowActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:164
+-keep class com.mintegral.sdk.demo.bid.BidBannerActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:160
+-keep class com.mintegral.sdk.demo.bid.BidChoiceActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:154
+-keep class com.mintegral.sdk.demo.bid.BidInterstitialVideoActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:167
+-keep class com.mintegral.sdk.demo.bid.BidNativeActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:244
+-keep class com.mintegral.sdk.demo.bid.BidNativeAdvancedActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:170
+-keep class com.mintegral.sdk.demo.bid.BidNativeVideoRecycleViewActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:157
+-keep class com.mintegral.sdk.demo.bid.BidRewardActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/build/intermediates/merged_manifests/debug/AndroidManifest.xml:239
+-keep class com.mintegral.sdk.demo.bid.BidSplashActivity { <init>(); }
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_wall_handler_view.xml:14
+-keep class android.support.v4.view.viewpager { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_material.xml:41
+-keep class android.support.v4.widget.NestedScrollView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_title_material.xml:56
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_material.xml:52
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_button_bar_material.xml:43
+-keep class android.support.v4.widget.Space { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_select_dialog_material.xml:23
+-keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_action_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_expanded_menu_layout.xml:17
+-keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_popup_menu_item_layout.xml:17
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_list_menu_item_layout.xml:17
+-keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_toolbar.xml:27
+-keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_toolbar.xml:43
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_action_mode_bar.xml:19
+-keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_toolbar.xml:17
+-keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_action_menu_layout.xml:17
+-keep class android.support.v7.widget.ActionMenuView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_activity_chooser_view.xml:19
+-keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_material.xml:18
+-keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_button_bar_material.xml:26
+-keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_content_include.xml:19
+-keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_alert_dialog_title_material.xml:45
+-keep class android.support.v7.widget.DialogTitle { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_simple_overlay_action_mode.xml:23
+-keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_simple.xml:17
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_dialog_title_material.xml:22
+-keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_nativevideo_recycleview.xml:44
+-keep class android.support.v7.widget.RecyclerView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_search_view.xml:75
+-keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_toolbar.xml:36
+-keep class android.support.v7.widget.Toolbar { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/431229497603bc41a754234b0f9350a7/appcompat-v7-25.3.1/res/layout/abc_screen_simple.xml:25
+-keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/b9e88642c105bd63fd405e2d96d7600d/exoplayer-r2.0.3/res/layout/exo_simple_player_view.xml:20
+-keep class com.google.android.exoplayer2.ui.AspectRatioFrameLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/b9e88642c105bd63fd405e2d96d7600d/exoplayer-r2.0.3/res/layout/exo_simple_player_view.xml:36
+-keep class com.google.android.exoplayer2.ui.PlaybackControlView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/b9e88642c105bd63fd405e2d96d7600d/exoplayer-r2.0.3/res/layout/exo_simple_player_view.xml:30
+-keep class com.google.android.exoplayer2.ui.SubtitleView { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/ad_app_install.xml:1
+-keep class com.google.android.gms.ads.formats.NativeAppInstallAdView { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/ad_content.xml:1
+-keep class com.google.android.gms.ads.formats.NativeContentAdView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/7eae8dfc90e8946f1382ef369d187ac7/mintegral_appwall/res/layout/mintegral_wall.xml:52
+-keep class com.mintegral.msdk.appwall.view.WallViewPager { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/7eae8dfc90e8946f1382ef369d187ac7/mintegral_appwall/res/layout/mintegral_wall.xml:32
+-keep class com.mintegral.msdk.appwall.viewpager.indicater.TabPageIndicator { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/7eae8dfc90e8946f1382ef369d187ac7/mintegral_appwall/res/layout/mintegral_wall.xml:38
+-keep class com.mintegral.msdk.appwall.viewpager.indicater.UnderlinePageIndicator { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/cad202ba75a7d0a2b9a2cfbd9d27493e/mintegral_interactiveads/res/layout/mintegral_loading_view.xml:7
+-keep class com.mintegral.msdk.interactiveads.view.MTGCircleView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/cad202ba75a7d0a2b9a2cfbd9d27493e/mintegral_interactiveads/res/layout/mintegral_loading_dialog.xml:17
+-keep class com.mintegral.msdk.interactiveads.view.MTGLoadingView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/ac4c4ea081dea8d58aa1a9e0c9ecfee0/mintegral_interstitial/res/layout/mintegral_interstitial_activity.xml:7
+-keep class com.mintegral.msdk.mtgjscommon.windvane.WindVaneWebView { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_nativevideo_recycleview_mediaview_item.xml:65
+-keep class com.mintegral.msdk.nativex.view.MTGMediaView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/5dd0a9827f728448faea6effcc866427/mintegral_nativeex/res/layout/mintegral_nativex_mtgmediaview.xml:36
+-keep class com.mintegral.msdk.nativex.view.WindVaneWebViewForNV { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/5dd0a9827f728448faea6effcc866427/mintegral_nativeex/res/layout/mintegral_nativex_fullscreen_top.xml:47
+-keep class com.mintegral.msdk.nativex.view.mtgfullview.StarLevelLayoutView { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_native_banner_activity.xml:7
+-keep class com.mintegral.msdk.out.MTGBannerView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_videoview_item.xml:8
+-keep class com.mintegral.msdk.playercommon.PlayerView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/e1cb760e8e47180240741f586711a265/mintegral_reward/res/layout/mintegral_more_offer_activity.xml:12
+-keep class com.mintegral.msdk.video.bt.module.MTGTempContainer { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/e1cb760e8e47180240741f586711a265/mintegral_reward/res/layout/mintegral_more_offer_activity.xml:6
+-keep class com.mintegral.msdk.video.bt.module.MintegralBTContainer { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/e1cb760e8e47180240741f586711a265/mintegral_reward/res/layout/mintegral_reward_activity_video_templete_transparent.xml:25
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/e1cb760e8e47180240741f586711a265/mintegral_reward/res/layout/mintegral_reward_activity_video_templete.xml:23
+-keep class com.mintegral.msdk.video.module.MintegralContainerView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/e1cb760e8e47180240741f586711a265/mintegral_reward/res/layout/mintegral_reward_activity_video_templete_transparent.xml:17
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/e1cb760e8e47180240741f586711a265/mintegral_reward/res/layout/mintegral_reward_activity_video_templete.xml:16
+-keep class com.mintegral.msdk.video.module.MintegralVideoView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_videoview_item.xml:25
+-keep class com.mintegral.msdk.video.widget.SoundImageView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_clickable_cta.xml:20
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/5dd0a9827f728448faea6effcc866427/mintegral_nativeex/res/layout/mintegral_nativex_playerview.xml:63
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/5dd0a9827f728448faea6effcc866427/mintegral_nativeex/res/layout/mintegral_nativex_mtgmediaview.xml:16
+-keep class com.mintegral.msdk.videocommon.view.MyImageView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_endcard_native_land.xml:28
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_endcard_native_hor.xml:29
+-keep class com.mintegral.msdk.videocommon.view.RoundImageView { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_endcard_native_land.xml:81
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/3a6da5d4ba17e4407ae6b205aabece52/mintegral_videojs/res/layout/mintegral_reward_endcard_native_hor.xml:83
+-keep class com.mintegral.msdk.videocommon.view.StarLevelView { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_nativevideo_recycleview_mediaview_item.xml:61
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_mul_big_ad_content.xml:18
+-keep class com.mintegral.msdk.widget.MTGAdChoice { <init>(...); }
+
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/7eae8dfc90e8946f1382ef369d187ac7/mintegral_appwall/res/layout/mintegral_wall_shuffle_fm_main.xml:20
+# Referenced at /Users/hanliontien/.gradle/caches/transforms-2/files-2.1/7eae8dfc90e8946f1382ef369d187ac7/mintegral_appwall/res/layout/mintegral_wall_layout_handler_entry.xml:10
+-keep class com.mintegral.msdk.widget.MTGImageView { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_native_simple.xml:8
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_reward.xml:8
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_offerwall.xml:6
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_native_choic.xml:8
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_interstitial.xml:8
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_interactiveads.xml:8
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_feeds.xml:8
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_demo_atv_appwall.xml:8
+-keep class com.mintegral.sdk.demo.view.CommonTitleLayout { <init>(...); }
+
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_nativevideo_recycleview_mediaview_item.xml:36
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_native_interstitial.xml:79
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_native_full_screen_ad.xml:75
+# Referenced at /Users/hanliontien/Desktop/MTGTest/demo/src/main/res/layout/mintegral_native_feeds_image.xml:36
+-keep class com.mintegral.sdk.demo.view.StarLevelLayoutView { <init>(...); }
+
